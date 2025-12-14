@@ -1,15 +1,15 @@
 public class ListItem {
-    String tasks;
+    String task;
 
-    public ListItem (String tasks) {
-        this.tasks = tasks;
+    public ListItem (String task) {
+        this.task = task;
     }
 
     public String getTask() {
-        return tasks;
+        return task;
     }
 
-    public void setTask(String tasks) {
-        this.tasks = tasks;
+    public void setTask(String task) {
+        this.task = task;
     }
 }
