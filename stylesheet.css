@@ -1,0 +1,72 @@
+.root {
+    -fx-background-color: #2b471c;
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 13px;
+    -fx-text-fill: #f6da7d;
+}
+
+/* TABLE STUFF */
+.table-view .table-row-cell {
+    -fx-background-color: #507e38;
+}
+
+.table-view .column-header, 
+.table-view .column-header .label, 
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+    -fx-text-fill: #f6da7d;
+    -fx-background-color: #2b471c;
+    -fx-font-weight: bold;
+}
+
+.table-view .scroll-bar .track {
+    -fx-background-color: #325121;
+}
+
+.table-view .scroll-bar .thumb {
+    -fx-background-color: #f6da7d;
+}
+
+.table-view .scroll-bar .thumb:hover {
+    -fx-background-color: #f6da7d;
+}
+
+
+.table-view .table-cell {
+    -fx-text-fill: #f6da7d;
+}
+
+.table-view .table-row-cell:filled:selected {
+    -fx-background-color: #2b471c;
+}
+
+.table-view .table-row-cell:filled:selected .table-cell {
+    -fx-text-fill: #f6da7d;
+    -fx-font-weight: bold;
+}
+
+/* COMBO BOX STUFF */
+
+.combo-box, .combo-box .list-cell {
+    -fx-background-color: #2b471c;
+    -fx-text-fill: #f6da7d;
+    -fx-border-color: #192b10;
+}
+
+
+/* TEXT FIELD STUFF */
+.text-field {
+    -fx-text-fill: #f6da7d;
+    -fx-background-color: #2b471c;
+    -fx-border-color: #192b10;
+}
+
+/* BUTTON STUFF */
+
+.button {
+    -fx-background-color: #f6da7d;
+    -fx-text-fill: #2b471c;
+    -fx-font-size: 13px;
+    -fx-padding: 5px 10px;
+    -fx-font-weight: bold;
+}
